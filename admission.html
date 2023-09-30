@@ -8,7 +8,7 @@
         .q1{
         background-color: black;
         color: white;
-        height: 150px;
+        height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -20,19 +20,81 @@
             display: flex;
             align-items: center;
         }
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.f1{
+    text-align: center;
+    text-decoration: underline;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+  width: 70%;
+}
+table.centre2{
+    margin-left: auto; 
+  margin-right: auto;
+  width: 70%;
+}
+.q3{
+    text-align: center;
+    text-decoration: underline;
+}
+.q4{
+    text-align: center;
+}
+.q6{
+    text-align: center;
+}
+footer{
+        margin-top: 10px;
+       }
+       .footp1{
+        background-color: gray;
+        color: black;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.85rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }
+       .fp2{
+        background-color: black;
+        color: white;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }
+       ul{
+        margin-top: 4px;
+       }
+       ul a{
+        display: block;
+        font-size: 0.85rem;
+        margin-top: 10px;
+        color: #dddddd;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }
     </style>
 </head>
 <body>
     <header>
         <div class="q1">
-            <h1>COURSES OFFERED</h1>
+            <h1>ADMISSION DEATAILS</h1>
         </div>
         <br>
         <br>
     </header>
     <main>
+        <div class="f1">
+            <h1>No. Of Branches and No. Of Students Intake :</h1>
+        </div>
     <div class="q2">
-        <table>
+        <table class="center">
             <tr>
                 <h1><th>B.TECH COURSES</th></h1>
                 <h1><th>SANCTIONED INTAKE</th></h1>
@@ -83,6 +145,78 @@
             </tr>
         </table>
     </div>
+    <br>
+    <br>
+    <hr color="yellow">
+    <br>
+    <div class="q3">
+        <h1>FEE REFUND NORMS :</h1>
+    </div>
+    <div class="q4">
+        <p>In case of cancellation of admission, fee will be refunded as per the AICTE notification and G.O. passed by the U.P. Government.</p>
+    </div>
+    <div class="q5">
+        <table class="centre2">
+            <tr>
+                <h1><th>S.No.</th></h1>
+                <h1><th>REQUEST FOR REFUND</th></h1>
+                <h1><th>REFUND</th></h1>
+            </tr>
+            <tr>
+                <th>a.</th>
+                <th>Request received before start of session</th>
+                <th>Entire fee after deduction of Rs.1000/-</th>
+            </tr>
+            <tr>
+                <th>b.</th>
+                <th>Request received after start of session and seat not being
+                filled by the College till the last date of admissions</th>
+                <th>Caution money only</th>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="q6">
+        <p>In case of withdrawal from hostel, only security and mess charges (for unutilized months) are refundable on a pro rata basis.</p>
+    </div>
 </main>
+<footer>
+    <div class="footp1">
+      <a href="#">Back to Top</a>
+    </div>
+    <div class="fp2">
+      <ul>
+        <h4>ADDRESS :</h4>
+        <a>27th Km Milestone</a>
+        <a>Delhi-Meerut Expressway</a>
+        <a>P.O. Adhyatmik Nagar</a>
+        <a>Ghaziabad - 201009</a>
+        <a>8744052891-93</a>
+        <a>7290034978</a>
+        <a>Admissions Enquiry: 1800-200-0777</a>
+        <a>info@akgec.ac.in</a>
+      </ul>
+      <ul>
+        <h4>Quick Links :</h4>
+        <a>AKGIM-MBA Admission</a>
+        <a>AKGIM-MBA</a>
+        <a>AICTE Approval Letters</a>
+        <a>NIRF Data for Ranking 2023</a>
+        <a>Mandatory Disclosure</a>
+        <a>Open Educational Resources (OER)</a>
+        <a>Online Reporting of Ragging Cases</a>
+        <a>Grievance Committee</a>
+        <a>Internal Complaints Committee</a>
+      </ul>
+        <ul>
+          <h4>About AKGEC :</h4>
+          <a>Ajay Kumar Garg Engineering College (AKGEC)</a>
+          <a>offers four year under graduate B.Tech course in</a>
+          <a>ten engineering branches, two year post graduate</a>
+          <a>M.Tech course in four engineering branches and</a>
+          <a>two year post graduate MCA course.</a>
+        </ul>
+    </div>
+  </footer>
 </body>
 </html>
